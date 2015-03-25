@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+@techreport{${1:author}-${2:year},
+    author = {$3},
+    title = {$4},
+    institution = {$5},
+    year = {$2},
+    OPTkey = {},
+    OPTtype = {},
+    OPTnumber = {},
+    OPTaddress = {},
+    OPTmonth = {},
+    OPTnote = {},
+    OPTannote = {}
+}
+]]></content>
+  <tabTrigger>techreport</tabTrigger>
+  <scope>text.bibtex</scope>
+  <description>Insert Technical Report entry</description>
+</snippet>

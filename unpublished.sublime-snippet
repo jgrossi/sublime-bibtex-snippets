@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+@unpublished{${1:author}-${2:year},
+    author = {$3},
+    title = {$4},
+    note = {$5},
+    year = {$2},
+    OPTkey = {},
+    OPTmonth = {},
+    OPTannote = {}
+}
+]]></content>
+  <tabTrigger>unpublished</tabTrigger>
+  <scope>text.bibtex</scope>
+  <description>Insert Unpublished entry</description>
+</snippet>

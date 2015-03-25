@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+@incollection{${1:author}-${2:year},
+    author = {$3},
+    title = {$4},
+    booktitle = {$5},
+    year = {$2},
+    OPTcrossref = {},
+    OPTkey = {},
+    OPTpages = {},
+    OPTpublisher = {},
+    OPTeditor = {},
+    OPTvolume = {},
+    OPTnumber = {},
+    OPTseries = {},
+    OPTtype = {},
+    OPTchapter = {},
+    OPTaddress = {},
+    OPTedition = {},
+    OPTdoi = {},
+    OPTmonth = {},
+    OPTnote = {},
+    OPTannote = {}
+}
+]]></content>
+  <tabTrigger>incollection</tabTrigger>
+  <scope>text.bibtex</scope>
+  <description>Insert InCollection entry</description>
+</snippet>

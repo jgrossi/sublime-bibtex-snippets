@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+@misc{${1:author}-${2:year},
+    author = {$3},
+    title = {$4},
+    year = {$2},
+    OPTkey = {},
+    OPThowpublished = {},
+    OPTmonth = {},
+    OPTURL = {},
+    OPTnote = {},
+    OPTannote = {}
+}
+]]></content>
+  <tabTrigger>misc</tabTrigger>
+  <scope>text.bibtex</scope>
+  <description>Insert Miscellaneous entry</description>
+</snippet>

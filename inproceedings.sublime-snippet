@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+@inproceedings{${1:author}-${2:year},
+    author = {$3},
+    title = {$4},
+    year = {$2},
+    OPTcrossref = {},
+    OPTkey = {},
+    OPTbooktitle = {},
+    OPTpages = {},
+    OPTeditor = {},
+    OPTvolume = {},
+    OPTnumber = {},
+    OPTseries = {},
+    OPTaddress = {},
+    OPTdoi = {},
+    OPTmonth = {},
+    OPTorganization = {},
+    OPTpublisher = {},
+    OPTnote = {},
+    OPTannote = {}
+}
+]]></content>
+  <tabTrigger>inproceedings</tabTrigger>
+  <scope>text.bibtex</scope>
+  <description>Insert InProceedings entry</description>
+</snippet>

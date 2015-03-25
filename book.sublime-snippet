@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+@book{${1:author}-${2:year},
+    author = {$3},
+    title = {$4},
+    editor = {$5},
+    publisher = {$5},
+    year = {$2},
+    OPTkey = {},
+    OPTvolume = {},
+    OPTnumber = {},
+    OPTseries = {},
+    OPTaddress = {},
+    OPTedition = {},
+    OPTdoi = {},
+    OPTmonth = {},
+    OPTnote = {},
+    OPTannote = {}
+}
+]]></content>
+  <tabTrigger>book</tabTrigger>
+  <scope>text.bibtex</scope>
+  <description>Insert Book entry</description>
+</snippet>
